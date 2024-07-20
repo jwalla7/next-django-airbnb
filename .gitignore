@@ -1,0 +1,143 @@
+#IDE
+server/.vscode*
+server/.vscode/**
+client/.vscode*
+client/.vscode**
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+server/*.py[cod]
+server/*$py.class
+
+# C extensions
+server/*.so
+
+# Distribution / packaging
+server/.Python
+server/build/
+server/develop-eggs/
+server/dist/
+server/downloads/
+server/eggs/
+server/.eggs/
+server/lib/
+server/lib64/
+server/parts/
+server/sdist/
+server/var/
+server/wheels/
+server/pip-wheel-metadata/
+server/share/python-wheels/
+server/*.egg-info/
+server/.installed.cfg
+server/*.egg
+server/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+server/*.manifest
+server/*.spec
+
+# Installer logs
+server/pip-log.txt
+server/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+server/htmlcov/
+server/.tox/
+server/.nox/
+server/.coverage
+server/.coverage.*
+server/.cache
+server/nosetests.xml
+server/coverage.xml
+server/*.cover
+server/*.py,cover
+server/.hypothesis/
+server/.pytest_cache/
+
+# Translations
+server/*.mo
+server/*.pot
+
+# Django stuff:
+server/*.log
+server/local_settings.py
+server/db.sqlite3
+server/db.sqlite3-journal
+
+# Scrapy stuff:
+server/.scrapy
+
+# PyBuilder
+server/target/
+
+
+# pyenv
+server/.python-version
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+server/__pypackages__/
+
+# Environments
+server/*.run/**
+server/.run*
+server/env*
+server/env/
+server/env/**
+server/*.env
+server/*.env/
+server/*.env/**
+server/.env*
+server/.env/**
+server/.env/.env
+server/.env/.env
+server/.env.bak/
+server/pyvenv.cfg
+server/share/
+server/bin/
+
+# Data
+server/*transactions*.jsonl
+server/*examples/data/transactions*
+server/*.DS_Store
+server/tmp_*
+server/examples/fine-tuned_qa/local_cache/*
+
+
+
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# testing
+client/coverage
+
+# next.js
+client/.next/
+client/out/
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/*.pem
+
+# debug
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# local env files
+client/.env*.local
+client/.env
+
+# vercel
+client/.vercel
+
+# typescript
+client/*.tsbuildinfo
+client/next-env.d.ts
