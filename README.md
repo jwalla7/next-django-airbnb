@@ -1,7 +1,4 @@
-## Auth Login Example
+## Basic Auth Login Example
 
-Backend - Django/Python
-
-#
-
-Frontend - Next.js/React
+- Backend - Django/Python
+- Frontend - Next.js/React
